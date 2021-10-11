@@ -316,3 +316,45 @@ body {
     margin-top: 40px;
   }
 }
+@media (max-width: 590px) {
+  .container {
+    max-width: 390px;
+  }
+  .film {
+    flex-wrap: wrap;
+  }
+  .film-trailer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  .session {
+    display: block;
+  }
+  .session-date {
+    margin-bottom: 20px;
+  }
+  .session-time {
+    padding-top: 40px;
+    margin-left: 0px;
+  }
+  .legend {
+    flex-wrap: wrap;
+  }
+  .legend-free {
+    flex-basis: 70%;
+    margin-bottom: 20px;
+  }
+  .legend-active {
+    flex-basis: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .price {
+    display: block;
+  }
+  .price-tag {
+    flex-basis: 70%;
+    margin-bottom: 40px;
+  }
+}
